@@ -17,27 +17,31 @@ fun main() {
         println("........")
     }
     println("Press g to move forward")
-val key1=takeString()
-if (key1=="g"){
-    println("..***...")
-    println("........")
-    println("........")
-    println("........")
-}
+    val key1 = takeString()
+    if (key1 == "g") {
+        println("..***...")
+        println("........")
+        println("........")
+        println("........")
+    }
     println("Press g to move forward")
-    val key2=takeString()
-    if (key2=="g"){
+    val key2 = takeString()
+    if (key2 == "g") {
         println("...***.")
         println(".......")
         println(".......")
         println(".......")
     }
     println("Press g to move forward")
-    val key3=takeString()
-    if (key3=="g"){
-        println("....****")
+    val key3 = takeString()
+    if (key3 == "g") {
+        println(".....***")
         println("........")
         println("........")
         println("........")
+    }
+
+    for (i in 0 until 5) {
+
     }
 }
